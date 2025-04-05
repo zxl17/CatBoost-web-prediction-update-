@@ -48,21 +48,21 @@ st.write("Please input patient's clinical indicators:")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    cl = st.number_input('Chloride (Cl) (mmol/L)', value=None, format="%.2f")
-    glu = st.number_input('Glucose (GLU) (mmol/L)', value=None, format="%.2f")
-    dbil = st.number_input('Direct Bilirubin (DBil) (μmol/L)', value=None, format="%.2f")
-    ldh = st.number_input('Lactate Dehydrogenase (LDH) (IU/L)', value=None, format="%.2f")
+    cl = st.number_input('Chloride (Cl)', value=None, format="%.2f")
+    glu = st.number_input('Glucose (GLU)', value=None, format="%.2f")
+    dbil = st.number_input('Direct Bilirubin (DBil)', value=None, format="%.2f")
+    ldh = st.number_input('Lactate Dehydrogenase (LDH)', value=None, format="%.2f")
 
 with col2:
     bun_scr = st.number_input('BUN/SCr Ratio', value=None, format="%.2f")
-    che = st.number_input('Cholinesterase (CHE) (IU/L)', value=None, format="%.2f")
-    ibil = st.number_input('Indirect Bilirubin (IBil) (μmol/L)', value=None, format="%.2f")
-    ua = st.number_input('Uric Acid (UA) (μmol/L)', value=None, format="%.2f")
+    che = st.number_input('Cholinesterase (CHE)', value=None, format="%.2f")
+    ibil = st.number_input('Indirect Bilirubin (IBil)', value=None, format="%.2f")
+    ua = st.number_input('Uric Acid (UA)', value=None, format="%.2f")
 
 with col3:
-    pdw = st.number_input('Platelet Distribution Width (PDW) (fL)', value=None, format="%.2f")
-    ggt = st.number_input('Gamma - Glutamyl Transferase (GGT) (IU/L)', value=None, format="%.2f")
-    ly_pct = st.number_input('Lymphocyte Ratio (LY%) (%)', value=None, format="%.2f")
+    pdw = st.number_input('Platelet Distribution Width (PDW)', value=None, format="%.2f")
+    ggt = st.number_input('Gamma - Glutamyl Transferase (GGT)', value=None, format="%.2f")
+    ly_pct = st.number_input('Lymphocyte Ratio (LY%)', value=None, format="%.2f")
 
 if st.button('Predict'):
 
