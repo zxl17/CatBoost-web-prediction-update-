@@ -42,7 +42,7 @@ model = load_model()
 
 
 st.title("Severe pneumonia in children")
-st.write("Please input patient's clinical indicators:")
+st.write("Please input children's clinical indicators:")
 
 
 col1, col2, col3 = st.columns(3)
