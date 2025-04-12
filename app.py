@@ -4,8 +4,7 @@ import numpy as np
 from joblib import load
 import shap
 import matplotlib.pyplot as plt
-import catboost
-from catboost import CatBoostClassifier
+
 
 st.set_page_config(page_title="Severe pneumonia in children", layout="wide")
 
